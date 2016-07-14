@@ -1,0 +1,26 @@
+{
+  "name": "react-list-app",
+  "version": "1.0.0",
+  "description": "React app to add lists",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayank-a93/react-list-app.git"
+  },
+  "author": "Mayank Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayank-a93/react-list-app.git/issues"
+  },
+  "homepage": "https://github.com/mayank-a93/react-list-app.git#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "watchify": "^3.7.0"
+  }
+}
